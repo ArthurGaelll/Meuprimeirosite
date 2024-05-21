@@ -58,10 +58,10 @@ h1{
     color: white;
 }
 h2{
-    color: white;
+    font-size: 2; 
+    text-align: center;
     line-height: 1.5;
-    margin-top: 3.5%;
-}
+   }
 p{
     color: white;
     line-height: 1.5;
@@ -70,6 +70,7 @@ p{
 }
 figcaption{
     color: greenyellow;
+    margin-bottom: 1%;
 }
 figure{
     text-align: center;
@@ -78,4 +79,11 @@ figure{
 .caixa-imagem{
     text-align: center;
     margin-top: 1%;
+}
+section{
+    color: white;
+    text-align: center; 
+    font-size: 4;
+    line-height: 1.5;
+    margin-bottom: 2%;
 }
