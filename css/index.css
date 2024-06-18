@@ -14,6 +14,7 @@ header{
     line-height: 3;
     text-align: center;
     font-weight: bold;
+    
 }
 #menu ul {
     padding: 0px;
@@ -38,6 +39,7 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 70px;
 }
 
 footer{
@@ -45,13 +47,24 @@ footer{
     padding: 3%;
 }
 .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(39, 31, 31);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+header{
     padding: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 .rodape{
     padding: 3%;
 }
@@ -60,6 +73,8 @@ footer{
     height: auto;
 
 }
+
+
 h1{
     text-align: center;
     font-size: xx-large;
@@ -91,7 +106,7 @@ figure{
 section{
     color: white;
     text-align: center; 
-    font-size: 4;
+    font-size: xx-large;
     line-height: 1.5;
     margin-bottom: 2%;
 }
