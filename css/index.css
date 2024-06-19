@@ -127,4 +127,5 @@ figure figcaption{
 }
 video{
     border: 2px solid orange;
+    text-align: center;
 }
