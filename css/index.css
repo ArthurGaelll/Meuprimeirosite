@@ -121,3 +121,10 @@ figure figcaption{
     text-align: center;
     color: greenyellow;
 }
+.videos{
+    text-align: center;
+    margin-top: 1%;
+}
+video{
+    border: 2px solid orange;
+}
